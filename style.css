@@ -1,0 +1,169 @@
+body {
+  background-color: hsl(257, 7%, 63%);
+  box-sizing: border-box;
+}
+.nav-btn {
+  color: grey;
+}
+  .short-link {
+    font-weight: 500;
+  }
+.work-img {
+  width: 70%;
+    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.nav-link {
+  font-size: 1.3rem;
+  text-shadow: 5px 5px 0 4px;
+}
+.cyan {
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 30px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.form-con {
+  background: url("./images/bg-shorten-mobile.svg"), hsl(257, 27%, 26%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  width: fit-content;
+  border-radius: 10px;
+}
+.card-icon-con {
+  background: hsl(257, 27%, 26%);
+  padding: 17px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: -12%;
+  left: 40%;
+}
+
+.first-card .card-icon {
+  background: url("./images/icon-brand-recognition.svg"), hsl(257, 27%, 26%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2.1rem;
+  width: 2.1rem;
+  border-radius: 50%;
+}
+.bg-violet {
+  background-color: hsl(257, 27%, 26%);
+  color: aliceblue;
+  border-radius: 3%;
+}
+.second-card .card-icon {
+  background: url("./images/icon-detailed-records.svg"), hsl(257, 27%, 26%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.1rem;
+  width: 2.1rem;
+  border-radius: 50%;
+}
+.third-card .card-icon {
+  background: url("./images/icon-fully-customizable.svg"), hsl(257, 27%, 26%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.1rem;
+  width: 2.1rem;
+  border-radius: 50%;
+}
+.bg-logo {
+  background: url("./images/logo.svg");
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 200px;
+  background-position: center;
+  min-height: 7rem;
+  padding: 0;
+}
+
+.copy-bg {
+  background-color: hsl(257, 27%, 26%);
+}
+
+.cyan:hover {
+  background: hsl(180, 79%, 71%);
+}
+.glow:hover {
+  box-shadow: 0px 0px 4px hsl(193, 38%, 86%);
+  background-color: hsl(180, 67%, 82%);
+}
+.cyan-form {
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  font-size: 18px;
+}
+.bg-boost {
+  background: url("./images/bg-boost-mobile.svg"), hsl(257, 27%, 26%);
+}
+.bg-footer {
+  background-color: hsl(255, 11%, 22%);
+}
+
+.results > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .first-order-responsive {
+    order: 1;
+  }
+  .second-order-responsive {
+    order: 2;
+  }
+  .work-img {
+    margin-left: 6rem;
+  }
+  .card-icon-con {
+    left: 15%;
+    margin-bottom: 10px;
+  }
+  .third-card {
+    margin-top: 2.1rem;
+  }
+  .bg-violet {
+    background-color: transparent;
+  }
+  .form-con {
+    background: url("./images/bg-shorten-desktop.svg"), hsl(257, 27%, 26%);
+  }
+  .bg-boost {
+    background: url("./images/bg-boost-desktop.svg"), hsl(257, 27%, 26%);
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .nav-link:hover {
+    color: black;
+    font-size: 1.01rem;
+    transition: 1s;
+  }
+  .short-link{
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .work-img {
+  
+  min-width: 75%;
+ 
+  min-height: 90%;
+  display: inline-block;
+  margin-bottom: 0px;
+  }
+}
